@@ -116,6 +116,8 @@ body{
     padding:10px;
     position: center;
     text-transform: uppercase;
+    color: darkgreen;
+														   
 }
 
 .login-form p{
@@ -378,7 +380,7 @@ height: 100%;
  <body>
 
  <div class="login-form">
-     <h1>Krishi Mitra</h1>
+     <h1>Crop Recommendation</h1>
      <form action="{{url_for('predict')}}" method="post" class="form">
 
         <input type="text" placeholder="Nitrogen" name="N" required="required"><br><br>
